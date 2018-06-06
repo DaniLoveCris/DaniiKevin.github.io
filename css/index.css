@@ -1,0 +1,218 @@
+*
+{
+	box-sizing:border-box;
+}
+
+/*---------------body---------*/
+body
+{
+	background-color:grey;
+	text-align: center;
+	
+}
+
+/*-------------------cabecera-------------*/
+#cabecera 
+{
+	height:70px;
+	background-color:silver;
+	margin-bottom:12px;
+	border-top-left-radius:35px;
+	border-top-right-radius:35px;
+	border-bottom-left-radius:35px;
+	border-bottom-right-radius:35px;
+	
+}
+
+	#cabecera h1
+	{		
+		text-align:center;
+		text-decoration:none;
+		color:black;
+		font-weight:800;
+		font-size:3em;
+		font-family:, ,sans-serif;
+	}
+
+	
+	#cabecera h1:first-letter
+	{
+	color:blue;
+	}
+	
+	
+	#cabecera h1:hover
+	{
+		border-top:double 6px green;
+		border-bottom:double 6px green;
+		font-size:2.4em;
+		text-decoration:blink;
+		text-transform:capitalize;
+		font-family:arial;
+	}
+
+	#cabecera h1:hover:first-letter
+	{
+	color:red;
+	}
+	
+/*--------------------------menu-----------------------*/	
+	
+	
+
+#menu 
+{
+	width:20%;
+	float: left;
+	height:1000px;
+	background-color:transparent;
+	margin-top:3px;
+	margin-bottom:3px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	
+}
+
+	#menu a
+	{
+		display:block;	
+		text-align:center;
+		font-size:1.0em;
+		color:black;
+		text-decoration:line;
+	}
+
+	#menu a:active
+	{
+		color:lime;
+	}
+	
+	#menu a:hover
+	{
+		background-color:silver;
+		color:silver;
+		text-decoration: none;
+		border-bottom-right-radius:20px;
+		border-top-left-radius:20px;
+	}
+
+	#menu a:visited
+	{
+		color:orange;
+	}
+
+	#menu a:link
+	{
+		color:black;
+	}
+	
+	
+	
+/*--------------------------home----------------------*/
+
+#home 
+{ 
+	width:80%;
+	float: left;
+	height:1000px;
+	background-color:transparent;
+	margin-top:4px;
+	margin-bottom:4px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	text-align:center; 
+	margin-left: center;
+	margin-right: center;
+	justify-content: center;
+	color: blue;
+} 
+
+
+	/*estrellas*/
+	
+#form 
+{
+  width: 50px;
+  margin: 3 auto;
+  height: 50px;
+}
+
+
+label 
+{
+  color: silver;
+}
+
+.clasificacion 
+{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label 
+{
+  color: red;
+}
+
+input[type="radio"]:checked ~ label 
+{
+  color: orange;
+}
+	
+
+#boton3 {
+	background: #31384A;
+	color: #fff;
+	padding: 30px;
+	font-size:1.0em;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+#boton3:hover {
+	cursor: pointer;
+	background: orangered;
+	
+}	
+	
+
+#boton4 {
+	background: #31384A;
+	color: #fff;
+	padding: 30px;
+	font-size:1.0em;
+}
+
+#boton4:hover {
+	cursor: pointer;
+	background: orangered;
+	
+}	
+
+
+#boton5 {
+	background: #31384A;
+	color: #fff;
+	padding: 30px;
+	font-size:1.0em;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+#boton5:hover {
+	cursor: pointer;
+	background: orangered;
+	
+}	
+
+
+
