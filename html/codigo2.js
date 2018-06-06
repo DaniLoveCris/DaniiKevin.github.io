@@ -1,1 +1,0 @@
-alert("Está entrando en generos, que tipo de musica le gusta")
