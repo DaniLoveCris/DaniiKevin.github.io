@@ -1,0 +1,121 @@
+body {
+
+	background-color:gray;
+}
+
+
+span {
+	margin-left: 20px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+strong {
+	margin-left: 5px;
+	display: inline-block;
+	margin-top: 10px;
+	width: 150px;	
+}
+
+p {
+	width: 100px;
+	text-align: right;
+	padding: 10px;
+}
+
+a+a {
+	margin-left: 20px;
+}
+
+
+
+#pagina img:first-child,
+#pagina img:first-child+img,
+#pagina img:first-child+img+img,
+#pagina img:first-child+img+img+img,
+#pagina img:first-child+img+img+img+img,
+#pagina img:first-child+img+img+img+img+img,
+#pagina img:first-child+img+img+img+img+img+img
+{
+	padding:10px;
+	background-color:gray;
+	background-image:linear-gradient(purple, lime, red);
+	margin-left:6px;
+	
+}
+
+
+
+#pagina img[alt="Cosculluela"]:hover {
+
+
+            transform:scale(1.3);
+            -ms-transform:scale(1.3); // IE 9 
+            -moz-transform:scale(1.3); // Firefox 
+            -webkit-transform:scale(1.3); // Safari and Chrome 
+}
+
+
+
+#pagina img[alt="Dimitri Vegas & Like Mike"]:hover {
+
+
+             transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg); // IE 9
+            -moz-transform: rotate(-20deg); // Firefox
+            -o-transform: rotate(-20deg); // Safari and Chrome 
+}
+
+
+
+#pagina img[alt="Marron 5"]:hover {
+
+
+            transform:scale(0.8);
+            -ms-transform:scale(0.8); // IE 9 
+            -moz-transform:scale(0.8); // Firefox 
+            -webkit-transform:scale(0.8); // Safari and Chrome 
+}
+
+
+#pagina img[alt="Tiesto"]:hover {
+
+
+            transform:scale(1.3);
+            -ms-transform:scale(1.3); // IE 9 
+            -moz-transform:scale(1.3); // Firefox 
+            -webkit-transform:scale(1.3); // Safari and Chrome 
+}
+
+
+
+#pagina img[alt="Metallica"]:hover {
+
+
+             transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg); // IE 9
+            -moz-transform: rotate(-20deg); // Firefox
+            -o-transform: rotate(-20deg); // Safari and Chrome 
+}
+
+
+
+#pagina img[alt="Skrillex"]:hover {
+
+
+            transform:scale(0.8);
+            -ms-transform:scale(0.8); // IE 9 
+            -moz-transform:scale(0.8); // Firefox 
+            -webkit-transform:scale(0.8); // Safari and Chrome 
+}
+
+
+#pagina img[alt="vicente one_more_time"]:hover {
+
+
+            transform:scale(1.1);
+            -ms-transform:scale(1.3); // IE 9 
+            -moz-transform:scale(1.3); // Firefox 
+            -webkit-transform:scale(1.3); // Safari and Chrome 
+}
